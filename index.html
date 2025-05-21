@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Портфолио fullstack разработчика с опытом создания веб-приложений и интеграции AI">
+  <meta name="keywords" content="fullstack, разработчик, веб-приложения, AI, DevOps">
+  <meta property="og:title" content="Профессиональный разработчик">
+  <meta property="og:description" content="Портфолио профессионального разработчика с опытом в веб-разработке и AI интеграциях">
+  <meta property="og:image" content="https://mad-xvcen.github.io/assets/photo.png">
+  <title>Профессиональный разработчик | Fullstack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ваше Имя",
+    "jobTitle": "Fullstack Developer",
+    "url": "https://mad-xvcen.github.io",
+    "sameAs": ["https://t.me/mad_XVCEN", "https://github.com/shahriyardev"]
+  }
+  </script>
+</head>
+<body>
+  <div id="preloader" class="preloader">
+    <div class="spinner"></div>
+  </div>
+
+  <canvas id="particles-bg" class="particles-bg"></canvas>
+
+  <header class="header">
+    <div class="header-content">
+      <div class="tabs" role="tablist">
+        <button id="profile-tab" class="tab active" data-tab="profile" role="tab" aria-controls="profile" aria-selected="true">Мой профиль</button>
+        <button id="skills-tab" class="tab" data-tab="skills" role="tab" aria-controls="skills" aria-selected="false">Профессиональные навыки</button>
+      </div>
+    </div>
+    <div class="header-decoration"></div>
+  </header>
+
+  <main class="main-content">
+    <section id="profile" class="tab-content active" role="tabpanel" aria-labelledby="profile-tab" tabindex="-1">
+      <div class="content-card profile-card">
+        <div class="profile-header">
+          <img 
+            src="/assets/photo.png" 
+            alt="Портретное фото fullstack разработчика" 
+            class="profile-photo"
+            loading="lazy"
+          >
+          <div class="profile-info">
+            <a href="https://t.me/mad_XVCEN" class="telegram-link" target="_blank" id="telegram-link">
+              <span class="telegram-icon">✉️</span>
+              <span class="telegram-text">Мой телеграм аккаунт</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="tech-stack">
+          <div class="tech-category">
+            <h3 class="tech-title">Frontend</h3>
+            <ul class="tech-list">
+              <li title="Библиотека для SPA">React.js / Next.js</li>
+              <li title="Типизированный JavaScript">TypeScript</li>
+              <li title="Утилитарный CSS-фреймворк">Tailwind CSS</li>
+              <li title="Сборщики модулей">Webpack/Vite</li>
+            </ul>
+          </div>
+          
+          <div class="tech-category">
+            <h3 class="tech-title">Backend</h3>
+            <ul class="tech-list">
+              <li title="Серверный JavaScript">Node.js (Express/Nest)</li>
+              <li title="Python-фреймворки">Python (Django/FastAPI)</li>
+              <li title="Базы данных">PostgreSQL/MongoDB</li>
+              <li title="Кеширование и поиск">Redis/Elasticsearch</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <p>© 2025 Все права защищены. Разработано с ❤️</p>
+      </footer>
+    </section>
+
+    <section id="skills" class="tab-content" role="tabpanel" aria-labelledby="skills-tab" tabindex="-1">
+      <div class="content-card">
+        <h2 class="section-title">Мой профессиональный опыт</h2>
+        <p class="section-description">
+          <span id="experience-counter">Полтора года</span> коммерческой разработки
+        </p>
+        
+        <ul class="skills-list">
+          <li class="skill-item">
+            <div class="skill-icon">🎮</div>
+            <div class="skill-content">
+              <h3>Создание конфигурации: OBB-CFG</h3>
+              <p>Разработка и настройка OBB-CFG файлов для оптимизации Pubg Mobile</p>
+            </div>
+          </li>
+          <li class="skill-item">
+            <div class="skill-icon">🚀</div>
+            <div class="skill-content">
+              <h3>Fullstack разработка</h3>
+              <p>Создание полного цикла приложений от backend API до интерактивного frontend</p>
+            </div>
+          </li>
+          <li class="skill-item">
+            <div class="skill-icon">⚡</div>
+            <div class="skill-content">
+              <h3>Оптимизация производительности</h3>
+              <p>Ускорение работы приложений через кеширование, lazy loading и оптимизацию запросов</p>
+            </div>
+          </li>
+          <li class="skill-item">
+            <div class="skill-icon">🤖</div>
+            <div class="skill-content">
+              <h3>AI интеграции</h3>
+              <p>Разработка чат-ботов и систем с использованием нейросетевых моделей</p>
+            </div>
+          </li>
+          <li class="skill-item">
+            <div class="skill-icon">🔧</div>
+            <div class="skill-content">
+              <h3>DevOps практики</h3>
+              <p>Настройка CI/CD, контейнеризация приложений, автоматизация развертывания</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <footer class="footer">
+        <p>© 2025 Все права защищены. Разработано с ❤️</p>
+      </footer>
+    </section>
+  </main>
+
+  <script defer src="/script.js"></script>
+</body>
+</html>

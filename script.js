@@ -305,8 +305,8 @@ class Portfolio {
     const skillItems = document.querySelectorAll('.skill-item');
     const projectCards = document.querySelectorAll('.project-card');
 
-    if (!techItems.length || !skillItems.length || !projectCards.length) {
-      console.warn('Interactive elements not found');
+    if (!techItems.length || !skillItems.length) {
+      console.warn('Some interactive elements not found');
       return;
     }
 
